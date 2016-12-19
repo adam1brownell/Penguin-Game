@@ -1,0 +1,136 @@
+body {
+    background-color: #ccf5f5
+}
+
+button {
+    border: none;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: helvetica, sans-serif;
+    text-align: center;
+    padding: 10%;
+}
+
+#playSpace {
+    width: 400px;
+    height: 400px;
+    margin-bottom: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#play {
+    padding-left: 25%;
+    margin: auto;
+    margin-top: 45%;
+    border-radius: 10px;
+    background-color: #ccf5f5;
+    background-image: url("https://pixabay.com/static/uploads/photo/2014/12/22/00/03/ice-576675_960_720.png");
+    background-size: cover;
+}
+
+#play:hover {
+    cursor: pointer;
+}
+#gameHolder {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#title {
+    width: 600px;
+    height: 150px;
+    background-image: url("penguin_pngs/penguin_title.png");
+}
+
+.penguin {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.penguin:hover {
+    background-image: url("penguin_pngs/mound_1_hover.png");
+    cursor: pointer;
+}
+
+.one {
+    background-image: url("penguin_pngs/mound_1.png");
+}
+
+#one:active {
+    background-image: url(penguin_pngs/penguin_1.png);
+}
+
+.two {
+    background-image: url("penguin_pngs/mound_2.png");
+}
+
+#two:active {
+    background-image: url(penguin_pngs/penguin_2.png);
+}
+
+.three {
+    background-image: url("penguin_pngs/mound_3.png");
+}
+
+#three:active {
+    background-image: url(penguin_pngs/penguin_3.png);
+}
+
+.four {
+    background-image: url("penguin_pngs/mound_4.png");
+}
+
+#four:active {
+    background-image: url(penguin_pngs/penguin_4.png);
+}
+
+.five {
+    background-image: url("penguin_pngs/mound_5.png");
+}
+
+#five:active {
+    background-image: url(penguin_pngs/penguin_6.png);
+}
+
+.six {
+    background-image: url("penguin_pngs/mound_6.png");
+}
+
+#six:active {
+    background-image: url(penguin_pngs/penguin_7.png);
+}
+
+.seven {
+    background-image: url("penguin_pngs/mound_7.png");
+}
+
+#seven:active {
+    background-image: url(penguin_pngs/penguin_7.png);
+}
+
+.eight {
+    background-image: url("penguin_pngs/mound_8.png");
+}
+
+#eight:active {
+    background-image: url(penguin_pngs/penguin_8.png);
+}
+
+.yeti {
+    background-image: url("penguin_pngs/mound_9.png");
+}
+
+.#yeti:active {
+    background-image: url(penguin_pngs/yeti.png);
+}
+
+#yup {
+    color: red;
+}
+#nope {
+    color: blueviolet;
+}
